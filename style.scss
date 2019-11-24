@@ -1,0 +1,36 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	text-transform: capitalize;
+}
+.firstone{
+	height: 600px;
+	background-color: #453367;
+}
+.intro{
+	height: 90vh;
+	position: relative;
+	h1{
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%,-50%);
+		color: #fff;
+		font-size: 6rem;
+	}
+	video{
+		height: 100%;
+		width: 100%;
+		object-fit: cover;
+	}
+}
+section{
+	padding: 60px 0;
+	line-height: 6rem;
+	h2{
+		font-size: 4rem;
+		text-align: center;
+		font-weight: lighter;
+	}
+}
